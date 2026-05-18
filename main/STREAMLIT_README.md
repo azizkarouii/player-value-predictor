@@ -68,7 +68,7 @@ L'app s'ouvrira automatiquement dans votre navigateur (http://localhost:8501)
 ### Deep Learning (3)
 - **ANN1 MLP Shallow** — 2 couches, BatchNormalization
 - **ANN2 Deep+BatchNorm** — 3 couches + BatchNorm + L2 regularization
-- **ANN3 ResNet** — 3 blocs résiduels tabulaires
+- **ANN3 Residual MLP** — Architecture résiduelle tabulaire
 
 ## 📈 Métriques utilisées
 

@@ -6,7 +6,7 @@ Application de prediction de valeur marchande des joueurs de football avec pipel
 
 Ce projet entraine 6 modeles sur les donnees reelles du projet (agrégation par joueur):
 - 3 modeles ML classiques: Regression Lineaire, Random Forest, XGBoost
-- 3 modeles Deep Learning: ANN1 MLP, ANN2 Deep+BN, ANN3 ResNet
+- 3 modeles Deep Learning: ANN1 MLP, ANN2 Deep+BN, ANN3 Residual MLP
 
 L'application Streamlit permet:
 - visualisation des donnees et resultats
@@ -23,9 +23,12 @@ streamlit run streamlit_app.py
 
 ## Structure utile
 
-- `streamlit_app.py`: application principale
+- `streamlit_app.py`: application principale Streamlit
 - `STREAMLIT_README.md`: documentation detaillee de l'app
 - `phase3_pipeline.py`: pipeline initial de la phase 3
+- `phase3_pipeline.ipynb`: notebook avec le pipeline et visualisations
+- `datasets_analysis.ipynb`: analyse exploratoire des donnees
+- `requirements.txt`: dependances du projet
 
 ## Notes
 
