@@ -23,11 +23,11 @@ streamlit run streamlit_app.py
 
 ## Structure utile
 
-- `streamlit_app.py`: application principale Streamlit
+- `phase4_streamlit_app.py`: application principale Streamlit
 - `STREAMLIT_README.md`: documentation detaillee de l'app
 - `phase3_pipeline.py`: pipeline initial de la phase 3
 - `phase3_pipeline.ipynb`: notebook avec le pipeline et visualisations
-- `datasets_analysis.ipynb`: analyse exploratoire des donnees
+- `phase2_datasets_analysis.ipynb`: analyse exploratoire des donnees
 - `requirements.txt`: dependances du projet
 
 ## Notes

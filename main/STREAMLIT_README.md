@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### 2. Lancer l'application
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run phase4_streamlit_app.py
 ```
 
 L'app s'ouvrira automatiquement dans votre navigateur (http://localhost:8501)
