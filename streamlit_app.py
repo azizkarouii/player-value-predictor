@@ -314,7 +314,7 @@ def train_models(X_tr, X_val, X_te, y_tr, y_val, y_te):
               verbose=0)
     results["ANN2 Deep+BN"] = (m_ann2, evaluate_model(m_ann2, X_te, y_te))
     
-    # ANN3: ResNet
+    # ANN3: Residual MLP
     def res_block(x, u):
         sc = x
         x  = layers.Dense(u, activation="relu")(x)
@@ -343,7 +343,7 @@ def train_models(X_tr, X_val, X_te, y_tr, y_val, y_te):
               epochs=120, batch_size=256,
               callbacks=[EarlyStopping(monitor="val_loss", patience=12, restore_best_weights=True, verbose=0)],
               verbose=0)
-    results["ANN3 ResNet"] = (m_ann3, evaluate_model(m_ann3, X_te, y_te))
+    results["ANN3 Residual MLP"] = (m_ann3, evaluate_model(m_ann3, X_te, y_te))
     
     return results
 
