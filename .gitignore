@@ -30,3 +30,9 @@ results_*.csv
 *.bat
 *.ps1
 *.pdf
+
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.out
